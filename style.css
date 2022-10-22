@@ -1,0 +1,47 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  display: block;
+  width: 500px;
+  min-height: 500px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.top-part {
+  border-radius: 10px;
+  background-color: rgb(200, 228, 232);
+}
+.top-part h2 {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 170px;
+}
+#addButton {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1rem;
+  margin-left: 80px;
+  border-radius: 5px;
+}
+#clearButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.eachTask {
+  border: 1px solid burlywood;
+  background-color: aliceblue;
+  margin: 3px;
+  border-radius: 4px;
+  padding: 15px;
+}
